@@ -13,19 +13,9 @@ int16_t PC = 0;
 // 16-bit PC
 // Need user input, 16 key hex keyboard (1234qwerasdfzxcv is common)
 
-
-int16_t instruction(int16_t instr){
-    // take an instruction?
-}
-
 void update_display(int16_t display){
     // update display?
 }
-
-struct Node{
-    int16_t data;
-    struct Node* next;
-};
 
 int main(int args, char ** argc){
     bool Flag = true;
